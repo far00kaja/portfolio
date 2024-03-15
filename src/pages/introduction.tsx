@@ -7,10 +7,10 @@ export default function Introduction() {
     return (
         <>
             <section id="introduction" className="flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-800 p-8">
-                <h1 className="text-bold text-6xl py-10 text-justify break-words">Hello</h1>
+                <h1 className="text-bold text-6xl py-10 text-justify break-words">👋 Hi,</h1>
                 <ul className="flex gap-4  flex-col font-semibold text-2xl text-gray-800 dark:text-gray-50 ">
                     <li>
-                        - 👋 Hi, I’m <a href="https://github.com/far00kaja" className="underline" target="_blank">Dicky Darmawan</a>
+                        I’m <a href="https://github.com/far00kaja" className="underline" target="_blank">Dicky Darmawan</a>
                     </li><li>
                         - 👀 I’m interested and on exploration phase in depth about backend  </li>
                     <li>
