@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation, } from "react-router-dom";
 // import Switcher from "./switcher";
 
 export default function Navbar() {
@@ -10,9 +10,9 @@ export default function Navbar() {
         <>
             <header className={` ${show ? 'flex fixed' : 'hidden sm:flex sticky'}  h-screen sm:h-auto  top-0 z-50 w-full flex flex-row items-center justify-center  bg-gray-200 dark:bg-gray-900 text-gray-800 dark:text-gray-50 py-4 px-2`}>
                 <nav className={` basis-11/12 flex sm:flex-row flex-col justify-center  items-center gap-8 text-2xl font-semibold py-2 `}>
-                    <a href={`introduction`} className={` ${pathname==='/introduction' ||pathname==='/' ?'border-b-4 border-b-gray-200 text-gray-200':'border-b-gray-900' } border-b-4  py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Introduction</a>
-                    <a href={`works`} className={` ${pathname==='/works' ?'border-b-4 border-b-gray-200 text-gray-200':'border-b-gray-900' }  border-b-4 border-transparent py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Work Experiences</a>
-                    <a href={`contact`} className={` ${pathname==='/contact' ?'border-b-4 border-b-gray-200 text-gray-200':'border-b-gray-900' }  border-b-4 border-transparent py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Contact Me!</a>
+                    <NavLink to={`introduction`} className={` ${pathname === '/introduction' || pathname === '/' ? 'border-b-4 border-b-gray-200 text-gray-200' : 'border-b-gray-900'} border-b-4  py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Introduction</NavLink>
+                    <NavLink to={`works`} className={` ${pathname === '/works' ? 'border-b-4 border-b-gray-200 text-gray-200' : 'border-b-gray-900'}  border-b-4 border-transparent py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Work Experiences</NavLink>
+                    <NavLink to={`contact`} className={` ${pathname === '/contact' ? 'border-b-4 border-b-gray-200 text-gray-200' : 'border-b-gray-900'}  border-b-4 border-transparent py-2 hover:border-b-4 hover:border-b-gray-900 dark:hover:border-b-4 dark:hover:border-b-gray-200 transition-all duration-300 delay-75 ease-linear`}>Contact Me!</NavLink>
                     {/* <Switcher /> */}
                 </nav>
             </header>
