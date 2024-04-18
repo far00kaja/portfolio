@@ -72,7 +72,7 @@ export default function Works() {
                         <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Back End Developer Freelance</h3>
                         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">Waizly</h3>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Dec 2019 - Present</time>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov 2023 - Feb 2024</time>
                         <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
                             <li>
                                 Bug and Fixed feature
