@@ -7,12 +7,13 @@ export default function Works() {
     return (
         <>
             <section id="works" className="h-fit flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-800 p-8">
-                <h1 className="text-semibold text-6xl mb-10">Work Experiences</h1>
+                <h1 className="text-semibold text-6xl mb-10">Work Experience</h1>
                 <ol className="relative border-s-2 border-gray-400 dark:border-gray-700">
                     <li className="mb-10 ms-4">
                         <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Full Stack Developer</h3>
                         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">PT. AKSES CIPTA SOLUSI</h3>
+                        <h4 className="text-xs font-semibold text-gray-900 dark:text-white">Bandung, Indonesia (On Site)</h4>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Aug 2021 - Present</time>
                         <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
                             <li>
@@ -47,6 +48,7 @@ export default function Works() {
                         <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Front End Developer</h3>
                         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">PT. AKSES CIPTA SOLUSI</h3>
+                        <h4 className="text-xs font-semibold text-gray-900 dark:text-white">Bandung, Indonesia (On Site)</h4>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Dec 2019 - Present</time>
                         <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
                             <li>
@@ -70,8 +72,36 @@ export default function Works() {
                     </li>
                     <li className="mb-10 ms-4">
                         <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                        <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Back End Engineer Freelance</h3>
+                        <h3 className="text-sm font-semibold text-gray-900 dark:text-white">PT Aksara Integrasi Sejahtera (Arvis)</h3>
+                        <h4 className="text-xs font-semibold text-gray-900 dark:text-white">Indonesia (Remote)</h4>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2024 - Mei 2024</time>
+                        <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
+                            <li>
+                                Migrate application from PHP to Typescript
+                            </li>
+                            <li>
+                                Migrate database from MySQL to MongoDB
+                            </li>
+                            <li>
+                                Created Documentation API using Swagger
+                            </li>
+                        </ul>
+                        <div className="my-4 text-sm font-semibold leading-none text-gray-800 dark:text-gray-500  flex flex-wrap gap-2 w-4/4 sm:w-3/4">
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">TypeScript</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">MongoDB</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Express.js</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Redis</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Domain-Driven Design (DDD)</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Git</span>
+                            <span className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-3.5 py-1.5 rounded-full dark:bg-gray-700 dark:text-gray-300">Swagger API</span>
+                        </div>
+                    </li>
+                    <li className="mb-10 ms-4">
+                        <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Back End Developer Freelance</h3>
                         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">Waizly</h3>
+                        <h4 className="text-xs font-semibold text-gray-900 dark:text-white">Indonesia (Remote)</h4>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Nov 2023 - Feb 2024</time>
                         <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
                             <li>
@@ -98,7 +128,8 @@ export default function Works() {
                     <li className="mb-10 ms-4">
                         <div className="absolute w-4 h-4 bg-gray-600 rounded-full mt-2 -start-2 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                         <h3 className="text-2xl mb-2 font-semibold text-gray-900 dark:text-white">Back End Developer Freelance</h3>
-                        <h3 className="text-sm font-semibold text-gray-900 dark:text-white">PT. Digdaya Olah Teknologi Indonesia (Remote, Indonesia)</h3>
+                        <h3 className="text-sm font-semibold text-gray-900 dark:text-white">PT. Digdaya Olah Teknologi Indonesia (DOT)</h3>
+                        <h4 className="text-xs font-semibold text-gray-900 dark:text-white">Indonesia (Remote)</h4>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jun 2022 - Jan 2023</time>
                         <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
                             <li>
