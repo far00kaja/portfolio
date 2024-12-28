@@ -131,7 +131,7 @@ export default function Works() {
               Bandung, Indonesia (On Site)
             </h4>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Dec 2019 - Present
+              Dec 2019 - Aug 2021
             </time>
             <ul className="ml-5 list-disc list-item text-gray-800 dark:text-gray-400">
               <li>Built library for video call using VueJS </li>

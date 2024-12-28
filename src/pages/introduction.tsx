@@ -17,7 +17,7 @@ export default function Introduction() {
                         - 🌱 I’m currently learning Go, Java, NodeJS, Vuejs and ReactJS
                     </li>
                     <li>
-                        - 📫 How to reach me, you can send to my email <a href="mailto:dckydrm1@gmail.com" target="_blank" className="underline">dckydrm1@gmail.com</a> or check my <a href="https://www.linkedin.com/in/dicky-darmawan-cv/" target="_blank" className="underline"> LinkedIn </a>
+                        - 📫 How to reach me, you can send to my email <a href="mailto:dckydrm1@gmail.com" target="_blank" className="underline">dckydrm1@gmail.com</a> or check my <a href="https://www.linkedin.com/in/dicky-darmawan-cv/" target="_blank" className="underline"> LinkedIn</a> Profile
                     </li>
                 </ul>
             </section>
