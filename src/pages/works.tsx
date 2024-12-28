@@ -82,7 +82,7 @@ export default function Works() {
                 Java and CodeIgniter
               </li>
               <li>
-                Developed feature for reporting transaction using using Java and
+                Developed feature for reporting transaction using Java and
                 CodeIgniter
               </li>
             </ul>
